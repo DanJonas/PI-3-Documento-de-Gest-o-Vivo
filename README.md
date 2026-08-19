@@ -3,14 +3,14 @@
 Descrição inicial do projeto de Pi 3, 2026 para a aula de Projeto Integrador 3 semestre
 
 Primeira entrega:
-Título do Projeto
-Nome dos integrantes (com sobrenome)
-Descrição do sistema que vocês querem desenvolver
-Pelo menos, 5 Personas,
-Descrição das funcionalidades do sistema (tudo o que o sistema de vocês é capaz de fazer)
-Definição do Escopo do projeto (o que vocês acham que conseguem entregar)
-Descrição das responsabilidades de cada um no projeto, colocando o nome e quais tarefas a pessoa se responsabilizará.
-Fluxo dos usuários no sistema
+Título do Projeto;
+Nome dos integrantes (com sobrenome);
+Descrição do sistema que vocês querem desenvolver;
+Pelo menos, 5 Personas;
+Descrição das funcionalidades do sistema (tudo o que o sistema de vocês é capaz de fazer);
+Definição do Escopo do projeto (o que vocês acham que conseguem entregar);
+Descrição das responsabilidades de cada um no projeto, colocando o nome e quais tarefas a pessoa se responsabilizará;
+Fluxo dos usuários no sistema.
 
 ## PROJECT HUB TCG
 
