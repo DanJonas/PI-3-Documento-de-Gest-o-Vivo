@@ -58,6 +58,7 @@ MPV
 - Sistema de suporte ou criação de ticket. (o escopo geral foca só na vitrine para venda);
 - Estoque para cartas soltas. Se 2 clientes querem o mesmo item e ele só tem 1 no estoque. Quem leva? (adicionar prioridade de dar baixa no estoque apenas na finalização da compra. Carrinho não garante).
 - Sistema de pagamento. (verificar complexidade).
+- aplicar outros idiomas ao site para escalabilidade. (Verificar complexidade e necessidade).
 
 ## Regas de Usuário
 - Não é possível adicionar no carrinho mais produtos que tem no estoque;
