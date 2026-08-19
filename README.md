@@ -49,8 +49,15 @@ DB - SQL
 MPV
 - Crud Admin: cadastro, edição e exclusão de produtos;
 - vitrine e busca: página inicial com produtos e sistema de pesquisa/filtro;
+- sessões bem definidas por categorias, raridades, theme decks, acessórios, etc;
 - Autenticação: cadastro de cliente e login (admin e clientes com perfis diferentes);
 - carrinho e checkout: adição de itens, cálculo de subtotal e finalização do pedido;
+
+  a pensar:
+- Cálculo de frete. Quanto mais distante, mais caro. Valor de frete. Adicionado ao carrinho. (quão complexo é implementar isso ao projeto?);
+- Sistema de suporte ou criação de ticket. (o escopo geral foca só na vitrine para venda);
+- Estoque para cartas soltas. Se 2 clientes querem o mesmo item e ele só tem 1 no estoque. Quem leva? (adicionar prioridade de dar baixa no estoque apenas na finalização da compra. Carrinho não garante).
+- Sistema de pagamento. (verificar complexidade).
 
 ## Regas de Usuário
 - Não é possível adicionar no carrinho mais produtos que tem no estoque;
