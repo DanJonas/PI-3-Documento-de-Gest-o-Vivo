@@ -10,6 +10,7 @@ Descrição inicial do projeto de Pi 3, 2026 para a aula de Projeto Integrador 3
 O mercado Pokémon tcg movimenta muita grana com produtos selados e singles, e as lojas precisam de sistemas robustos para gerenciar um inventário complexo com milhares de cartas diferentes e variações de estado de conservação. 
 A ideia aqui é desenvolver  uma plataforma de e-commerce que permita aos jogadores comprar cartas específicas para seus decks e produtos fechados para colecionismo, com um sistema de carrinho de compras eficiente e controle de estoque preciso.
 vamos focar em jogadores que buscam cartas específicas para torneios, colecionadores focados em expansões novas ou antigas, e presenteadores (pais e familiares).
+Caso possível, pensar em um ambiente marketplace, com outras lojas anunciando e vendendo no nosso site;
 Tecnologias: Front em Angular, back e Springboot com banco de dados em sql que simulará a jornada completa de compra, desde a vitrine até o checkout.
 O foco aqui será escalabilidade. Poderemos usar sistemas como Buy List, onde o usuário pode oferecer suas cartas usadas como a Meruru (https://www.meruru.com.br/?view=ecom%2Fbuylist%2Fhome&show=2&tcg=2&fil_card=&fil_edicao=&fil_order=1&search=Filtrar)
 o mercado de cartas é milhonário, e estima-se que ainda vá crescer mais até 2035 (https://www.marketgrowthreports.com/market-reports/collectible-card-game-market-102355).
@@ -60,10 +61,12 @@ MPV
 - Sistema de pagamento. (verificar complexidade).
 - aplicar outros idiomas ao site para escalabilidade. (Verificar complexidade e necessidade).
 
+
   para utopia (iniciar de modo simples):
 - Sistema de rate, comentários e adicionar foto ao comentário;
 - Sessão de comentários nos itens da loja (incentivar usuários a postar comentários e dar pontos de cashback. Comentários com fotos ou dando notas ganham mais(tipo a shopee que dá R$5 para quem dá nota ao um produto postando fotos));
 - Sistema de rede social, com algoritmos de seguidores, like, comentários e um timeline (mais puxado para o Skoob, onde aparecem todos os usuários da comunidade, não só quem você segue);
+- login separado de lojistas em caso de marketplace.
 
 ## Regas de Usuário
 - Não é possível adicionar no carrinho mais produtos que tem no estoque;
