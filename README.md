@@ -94,4 +94,5 @@ Iniciar o projeto já pensando em como vai ficar no final. Se for com cara de re
 Destacar e separar os elementos que farão parte crucial do projeto.
 Discutir sobre como o frete será calculado se a tela de cadastro será simples.
 Pode usar APIs para certos sistemas. O professor comentou que tem api de frete que ja faz tudo sozinho.
+Ao invés de um marketplace, fazer uma loja voltada para compras de usuários e revenda no site.
 
