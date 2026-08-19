@@ -2,6 +2,17 @@
 
 Descrição inicial do projeto de Pi 3, 2026 para a aula de Projeto Integrador 3 semestre
 
+-----------------------------------------------------------------------------------------------------------------------
+| *PRIMEIRA ENTREGA:*                                                                                                    |                     
+| Título do Projeto                                                                                                      |
+| Nome dos integrantes (com sobrenome)                                                                                   |
+| Descrição do sistema que vocês querem desenvolver                                                                      |
+| Pelo menos, 5 Personas                                                                                                 |
+| Descrição das funcionalidades do sistema (tudo o que o sistema de vocês é capaz de fazer)                              |
+| Definição do Escopo do projeto (o que vocês acham que conseguem entregar)                                              |
+| Descrição das responsabilidades de cada um no projeto, colocando o nome e quais tarefas a pessoa se responsabilizará.  |
+| Fluxo dos usuários no sistema                                                                                          |
+-----------------------------------------------------------------------------------------------------------------------
 
 ## PROJECT HUB TCG
 
@@ -56,8 +67,8 @@ MPV
 - sessões bem definidas por categorias, raridades, theme decks, acessórios, etc;
 - Autenticação: cadastro de cliente e login (admin e clientes com perfis diferentes);
 - carrinho e checkout: adição de itens, cálculo de subtotal e finalização do pedido;
-- - Cálculo de frete. Quanto mais distante, mais caro. Valor de frete. Adicionado ao carrinho. (quão complexo é implementar isso ao projeto?);
- - - Sistema de rate, comentários e adicionar foto ao comentário;
+- Cálculo de frete. Quanto mais distante, mais caro. Valor de frete. Adicionado ao carrinho. (quão complexo é implementar isso ao projeto?);
+- Sistema de rate, comentários e adicionar foto ao comentário;
 
 
   a pensar:
@@ -95,4 +106,32 @@ Destacar e separar os elementos que farão parte crucial do projeto.
 Discutir sobre como o frete será calculado se a tela de cadastro será simples.
 Pode usar APIs para certos sistemas. O professor comentou que tem api de frete que ja faz tudo sozinho.
 Ao invés de um marketplace, fazer uma loja voltada para compras de usuários e revenda no site.
+
+## MODELO: E-commerce com aspectos sociais
+- Loja focada em TCG com aspectos sociais:
+  Sampo de conversa (estilo reddit);
+  Sistema de avaliação (nota de 0 a 10, estrelas ou etc);
+  Sistema que permita postas fotos e textos para interação com outros usuários;
+  Login (cliente e adm). *se for um marketplace, fazer login de logista com acesso a cadastro de itens;
+  Sistema de frete (Professor orientou usar uma api com tudo pronto ao invés de programar do zero);
+  Sistema de busca;
+  Sessões bem definidas (promoções, ofertas, presentes, etc);
+  
+## PÁGINAS:
+- Home
+- Produtos
+- Promoções
+- Acessórios
+- Contato
+
+## Sessões Separadas:
+- Login
+- Carrinho
+
+## Placeholder
+- Imagem
+- Nome
+- Preço
+- Descrição
+- Estoque
 
