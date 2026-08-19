@@ -7,8 +7,8 @@ Descrição inicial do projeto de Pi 3, 2026 para a aula de Projeto Integrador 3
 
 
 ## Descrição:
-O mercado Pokémon tcg movimenta muita grana com produtos selados e singles, e as lojas precisam de sistemas robustos para gerenciar um inventário complexo com milhares de caratas diferentes e variaões de estado de conservação. 
-A ideia aqui é desenvolver  uma plataforma de e-commerce rápida e intuitiva que permita aos jogadores comprar cartas específicas para seus decks e produtos fechados para colecionismo, com um sistema de carrinho de compras eficiente e controle de estoque preciso.
+O mercado Pokémon tcg movimenta muita grana com produtos selados e singles, e as lojas precisam de sistemas robustos para gerenciar um inventário complexo com milhares de cartas diferentes e variações de estado de conservação. 
+A ideia aqui é desenvolver  uma plataforma de e-commerce que permita aos jogadores comprar cartas específicas para seus decks e produtos fechados para colecionismo, com um sistema de carrinho de compras eficiente e controle de estoque preciso.
 vamos focar em jogadores que buscam cartas específicas para torneios, colecionadores focados em expansões novas ou antigas, e presenteadores (pais e familiares).
 Tecnologias: Front em Angular, back e Springboot com banco de dados em sql que simulará a jornada completa de compra, desde a vitrine até o checkout.
 O foco aqui será escalabilidade. Poderemos usar sistemas como Buy List, onde o usuário pode oferecer suas cartas usadas como a Meruru (https://www.meruru.com.br/?view=ecom%2Fbuylist%2Fhome&show=2&tcg=2&fil_card=&fil_edicao=&fil_order=1&search=Filtrar)
