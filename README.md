@@ -6,6 +6,9 @@ Descrição inicial do projeto de Pi 3, 2026 para a aula de Projeto Integrador 3
 ## PROJECT HUB TCG
 
 
+# PARTE 1: IDEIA INICIAL
+
+
 ## Descrição:
 O mercado Pokémon tcg movimenta muita grana com produtos selados e singles, e as lojas precisam de sistemas robustos para gerenciar um inventário complexo com milhares de cartas diferentes e variações de estado de conservação. 
 A ideia aqui é desenvolver  uma plataforma de e-commerce que permita aos jogadores comprar cartas específicas para seus decks e produtos fechados para colecionismo, com um sistema de carrinho de compras eficiente e controle de estoque preciso.
@@ -53,9 +56,12 @@ MPV
 - sessões bem definidas por categorias, raridades, theme decks, acessórios, etc;
 - Autenticação: cadastro de cliente e login (admin e clientes com perfis diferentes);
 - carrinho e checkout: adição de itens, cálculo de subtotal e finalização do pedido;
+- - Cálculo de frete. Quanto mais distante, mais caro. Valor de frete. Adicionado ao carrinho. (quão complexo é implementar isso ao projeto?);
+ - - Sistema de rate, comentários e adicionar foto ao comentário;
+
 
   a pensar:
-- Cálculo de frete. Quanto mais distante, mais caro. Valor de frete. Adicionado ao carrinho. (quão complexo é implementar isso ao projeto?);
+
 - Sistema de suporte ou criação de ticket. (o escopo geral foca só na vitrine para venda);
 - Estoque para cartas soltas. Se 2 clientes querem o mesmo item e ele só tem 1 no estoque. Quem leva? (adicionar prioridade de dar baixa no estoque apenas na finalização da compra. Carrinho não garante).
 - Sistema de pagamento. (verificar complexidade).
@@ -63,13 +69,12 @@ MPV
 
 
   para utopia (iniciar de modo simples):
-- Sistema de rate, comentários e adicionar foto ao comentário;
 - Sessão de comentários nos itens da loja (incentivar usuários a postar comentários e dar pontos de cashback. Comentários com fotos ou dando notas ganham mais(tipo a shopee que dá R$5 para quem dá nota ao um produto postando fotos));
 - Sistema de rede social, com algoritmos de seguidores, like, comentários e um timeline (mais puxado para o Skoob, onde aparecem todos os usuários da comunidade, não só quem você segue);
-- login separado de lojistas em caso de marketplace.
+- login separado de lojistas em caso de marketplace. (sem necessidade de aprovacao, usar politica de uso).
 
 ## Regas de Usuário
-- Não é possível adicionar no carrinho mais produtos que tem no estoque;
+- Não é possível adicionar no carrinho mais produtos que tem no estoque; quem colocar primeiro no carrinho tem prioridade. Requisicao
 - O estoque deve diminuir ao concluir uma compra;
 - Qualquer pessoa pode navegar e adicionar produtos no carrinho, mas só usuários logados podem finalizar o pedido;
 - O valor do carrinho deve ser alterado ao adicionar ou remover itens;
@@ -78,3 +83,15 @@ MPV
 ## Método Sem Corpo
 (também não entendi)
 (em andamenyo)
+
+
+-------
+
+
+# PARTE 2: REFINAMENTO
+
+Iniciar o projeto já pensando em como vai ficar no final. Se for com cara de rede social, ja iniciar o projeto assim.
+Destacar e separar os elementos que farão parte crucial do projeto.
+Discutir sobre como o frete será calculado se a tela de cadastro será simples.
+Pode usar APIs para certos sistemas. O professor comentou que tem api de frete que ja faz tudo sozinho.
+
