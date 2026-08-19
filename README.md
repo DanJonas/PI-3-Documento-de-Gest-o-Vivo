@@ -60,6 +60,11 @@ MPV
 - Sistema de pagamento. (verificar complexidade).
 - aplicar outros idiomas ao site para escalabilidade. (Verificar complexidade e necessidade).
 
+  para utopia (iniciar de modo simples):
+- Sistema de rate, comentários e adicionar foto ao comentário;
+- Sessão de comentários nos itens da loja (incentivar usuários a postar comentários e dar pontos de cashback. Comentários com fotos ou dando notas ganham mais(tipo a shopee que dá R$5 para quem dá nota ao um produto postando fotos));
+- Sistema de rede social, com algoritmos de seguidores, like, comentários e um timeline (mais puxado para o Skoob, onde aparecem todos os usuários da comunidade, não só quem você segue);
+
 ## Regas de Usuário
 - Não é possível adicionar no carrinho mais produtos que tem no estoque;
 - O estoque deve diminuir ao concluir uma compra;
