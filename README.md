@@ -12,6 +12,8 @@ Primeira entrega:
 - Descrição das responsabilidades de cada um no projeto, colocando o nome e quais tarefas a pessoa se responsabilizará;
 - Fluxo dos usuários no sistema.
 
+Notion: https://app.notion.com/p/c85b42a372da8286972101733acdb91b?v=632b42a372da8326b84308e33d3ec18e
+
 ## PROJECT HUB TCG
 
 
